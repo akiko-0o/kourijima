@@ -1,5 +1,5 @@
 @charset 'UTF-8';
-@import './common/css/reset.scss';
+
 
 html {
     box-sizing: border-box;
@@ -10,53 +10,3 @@ html {
 a {
     color: #ffffff;
 }
-
-.slide {
-    background-image: url(./common/img/topimg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    margin: 0;
-    position: relative;
-    &_nav {
-        background-color: rgba(0, 0, 0, 0.18);
-        width: 100%;
-        position: absolute;
-        top: 43.5%;
-        img {
-            width: 19%;
-            height: auto;
-            padding-top: 35px;
-            padding-bottom: 25px;
-        }
-        li {
-            display: inline;
-            padding-left: 10px;
-            line-height: 1;
-            font-size: 15px;
-        }
-    }
-    &_inner {
-        max-width: 960px;
-        margin: 0 auto;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-}
-
-.footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: auto;
-    background-color: rgba(0, 0, 0, 0.3);
-    text-align: center;
-    height: 30px;
-    padding-top: 10px;
-    li {
-        display: inline;
-    }
-}
-
